@@ -39,8 +39,11 @@
         name.pop()
         return name;
       }
+      ///code to remove the first cat
       function removeFirstCat(name){
         var name=["Milo", "Otis", "Garfield"]
         name.shift()
         return name;
+
+
       }
